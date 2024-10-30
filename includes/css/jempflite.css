@@ -1,0 +1,29 @@
+
+.jempflite-loading-image img{
+	display: block;
+	margin: auto;
+}
+
+#jempflite-categories ul{
+	margin: 0 0 0 0 ;
+}
+
+ul .jempflite-child{
+	margin: 0.4em 0 0 1.5em!important;
+}
+
+#jempflite-categories li::before{
+	opacity: 0.4;
+	content: '\f0c8';
+	display: inline-block;
+	font-family: FontAwesome;
+	margin-right: 0.53em;	
+}
+
+#jempflite-categories li.jempflite-checked::before {
+	content: '\f14a';
+}
+
+.select2-container-multi{
+	width: 100%;
+}
